@@ -1,5 +1,5 @@
 
-saying: "hello world! GroovyApp"
+saying: "Hello world! GroovyApp"
 
 http:
     rootPath: "/api/*"
