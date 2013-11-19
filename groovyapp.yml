@@ -1,0 +1,21 @@
+
+saying: "hello world! GroovyApp"
+
+http:
+    rootPath: "/api/*"
+
+logging:
+    # NOTE: using the DEBUG level allows you to see stacktraces
+    level: INFO
+
+    loggers:
+        "com.martin" : TRACE
+
+    syslog:
+        enabled: false
+    console:
+        enabled: true
+        threshold: ALL
+
+
+
