@@ -8,7 +8,7 @@ Create local git repo
 	$ git add .
 	$ git commit -m "init"
 
-** Add Github as a remote to your project **
+**Add Github as a remote to your project**
 
 Create your repo in Github. Copy the git URL e.g. git@github.com:icsynergy/groovy_dropwizard.git that represents your new repo. 
 
@@ -59,6 +59,20 @@ Rename the heroku instance. This will change your git remote as well.
 Push your code to the heroku. You'll need to push any changes. This will force a clean / build of your app. 
 
 	$ git push heroku master
+
+### Misc ###
+
+Build the project single jar file
+
+	$ ./gradlew shadow
+
+Run your project local to test the Heroku Procfile
+
+	$ foreman start
+
+Run your project via gradle
+
+	$ ./gradlew run
 
 Watch the logs for your app
 
