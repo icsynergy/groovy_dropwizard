@@ -8,7 +8,7 @@ Create local git repo
 	$ git add .
 	$ git commit -m "init"
 
-Add Github as a remote to your project
+** Add Github as a remote to your project **
 
 Create your repo in Github. Copy the git URL e.g. git@github.com:icsynergy/groovy_dropwizard.git that represents your new repo. 
 
@@ -23,8 +23,6 @@ Pull the github origin to merge with your local
 Now push to github
 
 	$ git push origin master
-
-** TODO - ADD STEPS FOR A REPO CLONED FROM GITHUB **
 
 ### Heroku ###
 
