@@ -76,6 +76,10 @@ Run your project via gradle
 
 	$ ./gradlew run
 
+Run your project with the jar
+
+	$  java -jar build/libs/groovyApp-0.1-shadow.jar server groovyapp.yml
+
 Watch the logs for your app
 
 	$ heroku logs --tail
