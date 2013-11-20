@@ -4,14 +4,11 @@ import com.martin.config.GroovyAppConfiguration
 import com.martin.core.Message
 import com.martin.health.GroovyAppHealthCheck
 import com.martin.resources.MessageResource
-
-
 import com.yammer.dropwizard.Service
 import com.yammer.dropwizard.config.Bootstrap
 import com.yammer.dropwizard.config.Environment
 import com.yammer.dropwizard.assets.AssetsBundle
 import groovy.util.logging.Slf4j
-
 
 @Slf4j
 class MainService extends Service<GroovyAppConfiguration> {
@@ -22,10 +19,9 @@ class MainService extends Service<GroovyAppConfiguration> {
 
     @Override
     void initialize(Bootstrap<GroovyAppConfiguration> bootstrap) {
-        println "NOTE LOGGER: $log"
+	// NOTE: logger isn't ready to be used yet
         bootstrap.name = "groovyApp"
         bootstrap.addBundle(new AssetsBundle("/assets/", "/", 'index.html'))
-        log.trace "Exit initialize"
     }
 
     @Override
