@@ -1,5 +1,7 @@
 # Gradle / Groovy / Dropwizard / Heroku #
 
+This repo can be used as a starter for a Groovy / Dropwizard project. I plan to add more features that represent some of the best practices that I've come across. 
+
 ### Git ###
 
 Create local git repo
