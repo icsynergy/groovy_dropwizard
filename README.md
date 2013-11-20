@@ -1,4 +1,4 @@
-# Gradle / Groovy / Dropwizard / Heroku Example #
+# Gradle / Groovy / Dropwizard / Heroku #
 
 ### Git ###
 
