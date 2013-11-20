@@ -49,7 +49,7 @@ Validates your remote
 	heroku	git@heroku.com:nameless-****-****.git (fetch)
 	heroku	git@heroku.com:nameless-****-****.git (push)
 
-Rename the heroku instance. This will change your git remote as well.
+Optional: Rename the heroku instance. This will change your git remote as well.
 
 	$ heroku apps:rename **** --app nameless-****-****
 	Renaming nameless-****-**** to ****... done
