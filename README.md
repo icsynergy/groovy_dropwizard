@@ -1,13 +1,24 @@
-# Gradle built Groovy / Dropwizard deployed to Heroku Example #
-
-
-## Steps ##
+# Gradle / Groovy / Dropwizard / Heroku Example #
 
 ### Git ###
 
+Create local git repo
 	$ git init
 	$ git add .
 	$ git commit -m "init"
+
+Add Github as a remote to your project
+
+	Create your repo in Github. Copy the git URL e.g. git@github.com:icsynergy/groovy_dropwizard.git that represents your new repo. 
+
+Add the github remote
+	$ git remote add origin git@github.com:icsynergy/groovy_dropwizard.git
+
+Pull the github origin to merge with your local
+	$ git pull origin master
+
+Now push to github
+	$ git push origin master
 
 ** TODO - ADD STEPS FOR A REPO CLONED FROM GITHUB **
 
