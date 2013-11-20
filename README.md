@@ -1,4 +1,4 @@
-# Groovy / Dropwizard deployed to Heroku Example #
+# Gradle built Groovy / Dropwizard deployed to Heroku Example #
 
 
 ## Steps ##
@@ -44,10 +44,4 @@ Push your code to the heroku. You'll need to push any changes. This will force a
 
 Watch the logs for your app
 	$ heroku logs --tail
-
-
-
-
-
-
 
